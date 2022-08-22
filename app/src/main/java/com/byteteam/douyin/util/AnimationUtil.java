@@ -7,9 +7,14 @@ import android.view.animation.AccelerateDecelerateInterpolator;
 
 import java.util.HashMap;
 
+/**
+ * @introduction： 个人主页Fragment
+ * @author： 何文鹏
+ * @time： 2022/8/21
+ */
+
 public class AnimationUtil {
 
-    //存放View 是否在执行动画中
     private static HashMap<String, Boolean> animationMap = new HashMap<>();
 
     public static void doPressAnimation(final View view) {

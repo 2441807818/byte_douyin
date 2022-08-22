@@ -3,56 +3,56 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/1/Android/byte_douyin/app/src/main/res/layout/fragment_mine.xml" value="0.1796875" />
+        <entry key="..\:/1/Android/byte_douyin/app/src/main/res/layout/fragment_mine.xml" value="0.3020833333333333" />
+        <entry key="..\:/1/Android/byte_douyin/app/src/main/res/menu/menu_settings_mine.xml" value="0.15729166666666666" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/drawable/button_style.xml" value="0.3295" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/drawable/editext_selector.xml" value="0.3295" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/drawable/ic_baseline_person_add_24.xml" value="0.1585" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/drawable/ic_icon.xml" value="0.3295" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/drawable/ic_img_load_fail.xml" value="0.3295" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/drawable/shape_edit_focus.xml" value="0.3295" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/drawable/shape_edit_normal.xml" value="0.3295" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/activity_fans.xml" value="0.2421875" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/activity_fans_list.xml" value="0.2421875" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/activity_lottie.xml" value="0.18298418127404875" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/activity_rank.xml" value="0.2421875" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/activity_rank_list.xml" value="0.358695652173913" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/button_style.xml" value="0.35052083333333334" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/content_scrolling.xml" value="0.358695652173913" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/fragment_fans.xml" value="0.358695652173913" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/fragment_home.xml" value="0.358695652173913" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/fragment_mine.xml" value="0.358695652173913" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/fragment_mine_test.xml" value="0.358695652173913" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/fragment_movie.xml" value="0.2421875" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/fragment_my_fans.xml" value="0.14061847053907228" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/fragment_rank.xml" value="0.2421875" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/fragment_tab.xml" value="0.2877297990594271" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/list_item_fans.xml" value="0.22" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/list_item_fans_header.xml" value="0.1923899102180419" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/list_item_footer.xml" value="0.358695652173913" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/list_item_movie.xml" value="0.2421875" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/list_item_my_fans.xml" value="0.1923899102180419" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/list_item_my_fans_header.xml" value="0.14061847053907228" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/list_item_rank_header.xml" value="0.358695652173913" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/list_item_rank_version.xml" value="0.358695652173913" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/list_item_tv.xml" value="0.2421875" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/layout/list_item_variety.xml" value="0.2421875" />
+        <entry key="..\:/AndriodStudioSource/byte_douyin/app/src/main/res/menu/menu_scrolling.xml" value="0.18298418127404875" />
         <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1795" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/drawable/aa.xml" value="0.176" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/drawable/aaa.xml" value="0.1395" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/drawable/ic_baseline_comment_24.xml" value="0.1395" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/drawable/ic_hot.xml" value="0.193" />
         <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/drawable/ic_icon.xml" value="0.1795" />
         <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1795" />
         <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1795" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/drawable/ic_loading.xml" value="0.176" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/drawable/ic_loading2.xml" value="0.176" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/drawable/ic_network_error.xml" value="0.193" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/drawable/loading.xml" value="0.176" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/drawable/loading2.xml" value="0.176" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/activity_fans.xml" value="0.16197916666666667" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/activity_fans_list.xml" value="0.16197916666666667" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/activity_lottie.xml" value="0.18854166666666666" />
         <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/activity_main.xml" value="0.18854166666666666" />
         <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/activity_rank.xml" value="0.18177083333333333" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/activity_rank_list.xml" value="0.3671875" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/activity_video.xml" value="0.1828125" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/content_scrolling.xml" value="0.2421875" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/fragment_blank.xml" value="0.3367088607594937" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/fragment_fans.xml" value="0.16197916666666667" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/fragment_follow.xml" value="0.19166666666666668" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/fragment_home.xml" value="0.1" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/fragment_mine.xml" value="0.2421875" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/fragment_mine_test.xml" value="0.18854166666666666" />
+        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/fragment_home.xml" value="0.3671875" />
         <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/fragment_movie.xml" value="0.18177083333333333" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/fragment_my_fans.xml" value="0.16197916666666667" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/fragment_rank.xml" value="0.10089020771513353" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/fragment_rank_main.xml" value="0.36614583333333334" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/fragment_variety.xml" value="0.18489583333333334" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/fragment_works.xml" value="0.17239583333333333" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/list_item_fans.xml" value="0.3671875" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/list_item_fans_header.xml" value="0.3671875" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/list_item_follow.xml" value="0.19166666666666668" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/list_item_footer.xml" value="0.17760416666666667" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/list_item_grid.xml" value="0.3671875" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/list_item_movie.xml" value="0.4466666666666667" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/list_item_my_fans.xml" value="0.1609375" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/list_item_my_fans_header.xml" value="0.18854166666666666" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/list_item_rank_header.xml" value="0.36614583333333334" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/list_item_rank_version.xml" value="0.17" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/list_item_tv.xml" value="0.18489583333333334" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/list_item_variety.xml" value="0.18489583333333334" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/list_item_works.xml" value="0.17135416666666667" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/menu/menu_activity_main.xml" value="0.17135416666666667" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/menu/menu_scrolling.xml" value="0.2421875" />
-        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/menu/menu_settings_mine.xml" value="0.3671875" />
+        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/fragment_rank.xml" value="0.3333333333333333" />
+        <entry key="..\:/CodeStudy/Android/bytedance/douyin/app/src/main/res/layout/list_item_movie.xml" value="0.18072916666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/fragment_mine.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/menu/menu_scrolling.xml" value="0.35572916666666665" />
       </map>
     </option>
   </component>

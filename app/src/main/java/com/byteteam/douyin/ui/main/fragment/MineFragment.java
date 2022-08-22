@@ -6,6 +6,7 @@ import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -14,6 +15,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.PopupMenu;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.result.ActivityResultLauncher;
@@ -24,6 +26,7 @@ import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.Fragment;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.resource.bitmap.Rotate;
 import com.bumptech.glide.request.RequestOptions;
 import com.byteteam.douyin.R;
 import com.byteteam.douyin.databinding.FragmentMineBinding;
@@ -59,6 +62,12 @@ public class MineFragment extends Fragment {
 
     private FragmentMineBinding binding;
 
+    private boolean singleLine = true;
+
+    private View.OnClickListener noFunctionListener, disNoFunctionListener;
+
+
+
 
     @Override
     public void onStart() {
@@ -76,7 +85,22 @@ public class MineFragment extends Fragment {
         CollapsingToolbarLayout toolBarLayout = binding.toolbarLayout;
         toolBarLayout.setTitle(requireActivity().getTitle());
 
-        View.OnClickListener getUserListener = view -> {
+        noFunctionListener = new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AnimationUtil.doPressAnimation(view);
+                showNoFunction();
+            }
+        };
+
+        disNoFunctionListener = new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                showNoFunction();
+            }
+        };
+
+        @SuppressLint("CheckResult") View.OnClickListener getUserListener = view -> {
             UserDataSource userDataSource = RepositoryFactory.provideUserDataRepository(getContext());
             userDataSource.queryUser()
                     .doOnComplete(() -> {
@@ -94,6 +118,25 @@ public class MineFragment extends Fragment {
             AnimationUtil.doPressAnimation(view);
             showMenu(binding.btnSettings);
         };
+
+        ImageButton btn_expand = binding.btnExpand;
+        btn_expand.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                TextView tv = binding.tvInfo;
+                singleLine = !singleLine;
+                tv.setSingleLine(singleLine);
+                if (singleLine){
+                    Glide.with(getContext()).load(R.drawable.arrow).into(binding.btnExpand);
+                }else{
+                    Glide.with(getContext()).load(R.drawable.arrow).transform(new Rotate(180)).into(binding.btnExpand);
+                }
+            }
+        });
+
+        ImageButton btn_edit = binding.btnModify;
+        btn_edit.setOnClickListener(noFunctionListener);
 
         // 设置滑动布局
         List<Fragment> list = new ArrayList<>();
@@ -136,6 +179,8 @@ public class MineFragment extends Fragment {
 
         binding.imgAvatar.setOnClickListener(getUserListener);
 
+        bindNoFunction();
+
         return binding.getRoot();
 
     }
@@ -154,7 +199,15 @@ public class MineFragment extends Fragment {
 
                     User newUser = new User(user);
                     newUser.setBackground(UriUtil.convertUriToPath(getContext(),background));
+                    Log.e("User",user.toString());
+                    Log.e("NewUser",newUser.toString());
+                    userDao.deleteUser(user);
                     userDao.insertUser(newUser);
+
+                    // todo
+                    RequestOptions options1 = RequestOptions.bitmapTransform(new BlurTransformation(50,1));
+                    Glide.with(requireContext()).load(UriUtil.convertUriToPath(getContext(),background)).apply(options1).into(binding.imgWall);
+
                     displayUser(newUser);
                 });
     }
@@ -212,8 +265,23 @@ public class MineFragment extends Fragment {
             return true;
         });
 
+        popupMenu.setOnDismissListener(new PopupMenu.OnDismissListener() {
+            @Override
+            public void onDismiss(PopupMenu popupMenu) {
+                AnimationUtil.doPressAnimation(view);
+            }
+        });
+
         popupMenu.show();
 
+    }
+
+    private void bindNoFunction() {
+        binding.cvEditProfile.setOnClickListener(noFunctionListener);
+        binding.cvNewFriends.setOnClickListener(noFunctionListener);
+        binding.clStore.setOnClickListener(noFunctionListener);
+        binding.clOpen.setOnClickListener(noFunctionListener);
+        binding.llRates.setOnClickListener(disNoFunctionListener);
     }
 
     private void requestStoragePermission() {
@@ -258,7 +326,7 @@ public class MineFragment extends Fragment {
             if (user.getBackground() != null && !Objects.equals(user.getBackground(), "")) {
                 Glide.with(requireContext()).load(user.getBackground()).apply(options1).into(binding.imgWall);
             }else{
-                Glide.with(this).load(R.drawable.wall).apply(options1).into(binding.imgWall);
+//                Glide.with(this).load(R.drawable.wall).apply(options1).into(binding.imgWall);
             }
 
             binding.tvValueGender.setText(user.getGender());
