@@ -289,6 +289,7 @@ public class MineFragment extends Fragment {
                 Manifest.permission.READ_EXTERNAL_STORAGE)) {
 
             Toast.makeText(getContext(),"permission allowed",Toast.LENGTH_LONG).show();
+            mGetContent.launch("image/*");
 
         } else {
 
