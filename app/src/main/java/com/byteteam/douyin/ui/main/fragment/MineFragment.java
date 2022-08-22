@@ -323,7 +323,8 @@ public class MineFragment extends Fragment {
             }
 
 
-            RequestOptions options1 = RequestOptions.bitmapTransform(new BlurTransformation(50,1));
+//          RequestOptions options1 = RequestOptions.bitmapTransform(new BlurTransformation(50,1));
+            RequestOptions options1 = RequestOptions.bitmapTransform(new CenterInside());
             if (user.getBackground() != null && !Objects.equals(user.getBackground(), "")) {
                 Glide.with(requireContext()).load(user.getBackground()).apply(options1).into(binding.imgWall);
             }else{
